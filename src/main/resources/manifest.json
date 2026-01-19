@@ -1,0 +1,21 @@
+{
+  "Group": "${plugin_group}",
+  "Name": "${plugin_name}",
+  "Version": "${plugin_version}",
+  "Description": "${plugin_description}",
+  "Authors": [
+    {
+      "Name": "${plugin_author}"
+    }
+  ],
+  "Website": "${plugin_website}",
+  "ServerVersion": "${server_version}",
+  "Dependencies": {
+    "Hytale:EntityModule": "*",
+    "Hytale:AssetModule": "*"
+  },
+  "OptionalDependencies": {},
+  "DisabledByDefault": false,
+  "IncludesAssetPack": false,
+  "Main": "${plugin_main_entrypoint}"
+}
